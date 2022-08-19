@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: hsl(230, 17%, 14%);
+}
+
+.cardContainer {
+  border-radius: 6px;
+  height: 250px;
+  min-width: 300px;
+  
+  color: hsl(0, 0%, 100%);
+}
+
+.card{
+  margin: 9px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card:hover{
+  background-color: #333a56;
+}
+
+
+.facebook {
+  border-top: 6px solid hsl(208, 92%, 53%);
+}
+.twitter {
+  border-top: 6px solid hsl(203, 89%, 53%);
+}
+.instagram {
+  border-top: 6px solid;
+  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+.youtube {
+  border-top: 6px solid hsl(348, 97%, 39%);
+}
+
+.good{
+  color: hsl(163, 72%, 41%);
+}
+
+.bad{
+  color: hsl(356, 69%, 56%)
+}
+
+.usernameContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.icon {
+  height: 24px;
+  padding: 12px 12px;
+}
+.username{
+  color: hsl(228, 34%, 66%);
+  font-size: 14px;
+}
+
+.mainInfo {
+  margin-top: 5px;
+  font-size: 14px;
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  letter-spacing: .4em;
+}
+.mainInfo > .mainData {
+  font-size: 64px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: normal;
+}
+
+.delta{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 700;
+}

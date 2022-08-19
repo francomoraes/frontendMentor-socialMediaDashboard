@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: hsl(230, 17%, 14%);
+}
+
+.tagContainer {
+  border-radius: 6px;
+  height: 105px;
+  width: 300px;
+  background-color: hsl(228, 28%, 20%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+}
+
+.tagContainer:hover{
+  background-color: #333a56;
+}
+
+.good{
+  color: hsl(163, 72%, 41%);
+}
+
+.bad{
+  color: hsl(356, 69%, 56%)
+}
+
+.icon {
+  height: 24px;
+  padding: 12px 12px;
+}
+
+.mainInfoTag {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  letter-spacing: .1em;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.mainInfoTag > .mainDataTag {
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: normal;
+}
+
+.deltaTag{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  flex: 1;
+  height: 100px;
+}

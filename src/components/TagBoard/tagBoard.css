@@ -1,0 +1,17 @@
+.tagTitle{
+  display: block;
+}
+
+.tagsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+}
+
+.cardTag{
+  border-radius: 8px;
+  padding: 10px;
+}
