@@ -4,7 +4,7 @@
 
 ## <i>Social media dashboard with theme switcher</i>
 
-[Link to the Page](https://francomoraes.github.io/todo-list-react-typescript/)
+[Link to the Page](https://francomoraes.github.io/frontendMentor-socialMediaDashboard/)
 
 ## Implementation and Code structure
 
