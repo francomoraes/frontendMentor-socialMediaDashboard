@@ -1,68 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
-  font-family: 'Inter', sans-serif;
-}
-
-body{
-  background-color: hsl(230, 17%, 14%);
+    font-family: 'Inter', sans-serif;
 }
 
 .tagContainer {
-  border-radius: 6px;
-  height: 105px;
-  width: 300px;
-  background-color: hsl(228, 28%, 20%);
-  color: hsl(0, 0%, 100%);
-  display: flex;
+    border-radius: 6px;
+    height: 105px;
+    width: 300px;
+    display: flex;
 }
 
-.tagContainer:hover{
-  background-color: #333a56;
+#dark .tagContainer {
+    background-color: hsl(228, 28%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+#light .tagContainer {
+    background-color: hsl(227, 47%, 96%);
+    color: hsl(230, 17%, 14%);
 }
 
-.good{
-  color: hsl(163, 72%, 41%);
+#dark .tagContainer:hover {
+    background-color: #333a56;
 }
 
-.bad{
-  color: hsl(356, 69%, 56%)
+#light .tagContainer:hover {
+    background-color: hsl(232, 33%, 91%);
+}
+
+.good {
+    color: hsl(163, 72%, 41%);
+}
+
+.bad {
+    color: hsl(356, 69%, 56%);
 }
 
 .icon {
-  height: 24px;
-  padding: 12px 12px;
+    height: 24px;
+    padding: 12px 12px;
 }
 
 .mainInfoTag {
-  margin-top: 5px;
-  font-size: 14px;
-  font-weight: 700;
-  color: hsl(228, 34%, 66%);
-  text-align: center;
-  letter-spacing: .1em;
-  flex: 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100px;
-  align-items: flex-start;
-  padding-left: 20px;
-}
-.mainInfoTag > .mainDataTag {
-  font-size: 32px;
-  font-weight: 700;
-  color: hsl(0, 0%, 100%);
-  letter-spacing: normal;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    align-items: flex-start;
+    padding-left: 20px;
 }
 
-.deltaTag{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 700;
-  flex: 1;
-  height: 100px;
+#dark .mainInfoTag {
+    color: hsl(228, 34%, 66%);
+}
+
+#light .mainInfoTag {
+    color: hsl(228, 12%, 44%);
+}
+
+.mainInfoTag > .mainDataTag {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+#dark .mainInfoTag > .mainDataTag {
+    color: hsl(0, 0%, 100%);
+}
+
+#light .mainInfoTag > .mainDataTag {
+    color: hsl(230, 17%, 14%);
+}
+
+.deltaTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    flex: 1;
+    height: 100px;
 }

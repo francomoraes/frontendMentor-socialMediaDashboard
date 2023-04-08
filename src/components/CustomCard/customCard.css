@@ -1,87 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
-  font-family: 'Inter', sans-serif;
-}
-
-body{
-  background-color: hsl(230, 17%, 14%);
+    font-family: 'Inter', sans-serif;
 }
 
 .cardContainer {
-  border-radius: 6px;
-  height: 250px;
-  min-width: 300px;
-  
-  color: hsl(0, 0%, 100%);
+    border-radius: 6px;
+    height: 250px;
+    min-width: 300px;
 }
 
-.card{
-  margin: 9px;
-  border-radius: 8px;
-  cursor: pointer;
-  background-color: hsl(228, 28%, 20%);
+.card {
+    margin: 9px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.card:hover{
-  background-color: #333a56;
+#dark .card {
+    background-color: hsl(228, 28%, 20%);
 }
 
+#light .card {
+    background-color: hsl(227, 47%, 96%);
+}
+
+#dark .card:hover {
+    background-color: #333a56;
+}
+
+#light .card:hover {
+    background-color: hsl(232, 33%, 91%);
+}
 
 .facebook {
-  border-top: 6px solid hsl(208, 92%, 53%);
+    border-top: 6px solid hsl(208, 92%, 53%);
 }
 .twitter {
-  border-top: 6px solid hsl(203, 89%, 53%);
+    border-top: 6px solid hsl(203, 89%, 53%);
 }
 .instagram {
-  border-top: 6px solid;
-  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+    border-top: 6px solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
 }
 .youtube {
-  border-top: 6px solid hsl(348, 97%, 39%);
+    border-top: 6px solid hsl(348, 97%, 39%);
 }
 
-.good{
-  color: hsl(163, 72%, 41%);
+.good {
+    color: hsl(163, 72%, 41%);
 }
 
-.bad{
-  color: hsl(356, 69%, 56%)
+.bad {
+    color: hsl(356, 69%, 56%);
 }
 
-.usernameContainer{
-  display: flex;
-  justify-content: center;
-  margin-top: 24px;
+.usernameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
 .icon {
-  height: 24px;
-  padding: 12px 12px;
+    height: 24px;
+    padding: 12px 12px;
 }
-.username{
-  color: hsl(228, 34%, 66%);
-  font-size: 14px;
+.username {
+    font-size: 14px;
+}
+
+#dark .username {
+    color: hsl(228, 34%, 66%);
+}
+
+#light .username {
+    color: hsl(228, 12%, 44%);
 }
 
 .mainInfo {
-  margin-top: 5px;
-  font-size: 14px;
-  color: hsl(228, 34%, 66%);
-  text-align: center;
-  letter-spacing: .4em;
-}
-.mainInfo > .mainData {
-  font-size: 64px;
-  font-weight: 700;
-  color: hsl(0, 0%, 100%);
-  letter-spacing: normal;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.4em;
 }
 
-.delta{
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  font-size: 14px;
-  font-weight: 700;
+#dark .mainInfo {
+    color: hsl(228, 34%, 66%);
+}
+
+#light .mainInfo {
+    color: hsl(228, 12%, 44%);
+}
+
+.mainInfo > .mainData {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+#dark .mainInfo > .mainData {
+    color: hsl(0, 0%, 100%);
+}
+
+#light .mainInfo > .mainData {
+    color: hsl(230, 17%, 14%);
+}
+
+.delta {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
 }

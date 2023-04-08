@@ -1,2 +1,24 @@
+html,
+body,
+#root,
 .App {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#light.App {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#dark.App {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.switch {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
